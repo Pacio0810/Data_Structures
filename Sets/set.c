@@ -81,7 +81,7 @@ void Insert_in_set(SET *set, const char *key)
             return;
         }
     }
-    printf("Unable to insert the element, the index was already busy");
+    printf("Unable to insert the element, the index was already busy\n");
 }
 
 void Removal_item_in_set(SET *set, const char *key)
